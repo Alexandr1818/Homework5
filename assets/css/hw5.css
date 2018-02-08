@@ -1,0 +1,163 @@
+body {
+  background-repeat: repeat-x;
+  width: 100%;
+  background-size: 110%;
+}
+.white_main {
+   position: absolute;
+    margin-left: 180px ;
+}
+.white_main {
+   margin-top: -10px;
+}
+.foto {
+  position: absolute;
+  margin-top: 219px;
+  margin-left: 180px;
+  width: 90%;
+}
+.lines {
+  position: absolute;
+  margin-top: 184px;
+  margin-left: 114px;
+  width: 100%;
+}
+.logo1 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 150px;
+}
+.city li {
+  line-height: 1.2em;
+  text-align: center;
+  position: relative;
+  display: block;
+  float: right;
+  width: 65px;
+  height: 30px;
+  padding: 0;
+  font-size:  13px;
+
+}
+ .city {
+      margin-top: -170px;
+    margin-left: 530px;
+}
+.city li a {
+  text-decoration: underline;
+  color: #90c8d6;
+}
+.contacts {
+  position: absolute;
+  float: right;
+  display: block;
+  color: #90c8d6;
+  margin-left: 930px;
+  font-size:  13px;
+
+}
+.contacts li {
+  display: block;
+}
+.panel {
+  position: absolute;
+  margin-top: 455px;
+  margin-left: 178px;
+
+}
+.menu li  {
+    display: inline-block;
+}
+.menu {
+  margin-top: 445px;
+  margin-left: 150px;
+  position: absolute;
+  width: 1500px;
+  height: 30px;
+}
+
+.menu1 li {
+  text-align: center;
+}
+
+.menu1 ul > li:hover > .submenu ul {
+     display: block;
+     /* clear: both; */
+     text-align: center;
+    background-color:  #f90;
+content: "";
+
+ }
+.submenu li {
+
+  text-align: center;
+}
+.submenu ul  {
+ position: absolute;
+  content: "";
+  width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: grey;
+    border: 1px solid red;
+}
+
+
+.info {
+  margin-top: 485px;
+  margin-left: 180px;
+  position: absolute;
+  background-color: #edeef0;
+  width: 260px;
+  height: 490px;
+  border-right: 1px solid #c7cacf;
+  line-height: 1.5;
+}
+.info li {
+  display: block;
+  float: left;
+  /* text-align: center; */
+  }
+h2 {
+  text-align: center;
+}
+.news {
+  margin-top: 485px;
+  margin-left: 893px;
+  position: absolute;
+  background-color: #edeef0;
+  width: 260px;
+  height: 490px;
+  border-left: 1px solid #c7cacf;
+  line-height: 1.5;
+}
+.news li {
+  display: block;
+  float: left;
+}
+.copy {
+  position: absolute;
+  margin-top: 985px;
+  margin-left: 530px;
+
+  color: #edeef0;
+}
+.copy li {
+  display: block;
+}
+.menu1 > li{
+  position: relative;
+
+
+}
+.submenu {
+  position: absolute;
+  display: none;
+  z-index: 1;
+
+
+}
+.menu1 > li:hover > .submenu {
+  display: block;
+
+}
