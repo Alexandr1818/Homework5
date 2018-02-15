@@ -32,7 +32,7 @@ body {
   text-align: center;
   position: relative;
   display: block;
-  float: right;
+  float: left;
   width: 65px;
   height: 30px;
   padding: 0;
@@ -77,29 +77,37 @@ body {
 }
 
 .menu1 li {
-  text-align: center;
-}
 
-.menu1 ul > li:hover > .submenu ul {
+  text-align: center;
+  margin-left: 35px;
+
+}
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.submenu {
+  float: left;
+  background-color: #303030;
+}
+/* .menu1 ul > li:hover > .submenu ul {
      display: block;
      /* clear: both; */
-     text-align: center;
+     /* text-align: center;
     background-color:  #f90;
-content: "";
+content: ""; */
 
  }
-.submenu li {
-
+.submenu li  {
+  float: left;
+  position: absolute;
+  display: block;
   text-align: center;
 }
-.submenu ul  {
+ .submenu ul  li a {
+   float: left;
  position: absolute;
-  content: "";
-  width: 120px;
-    top: 37px;
-    left: 0;
-    background-color: grey;
-    border: 1px solid red;
+  /* text-align: center; */
 }
 
 
@@ -139,18 +147,19 @@ h2 {
   position: absolute;
   margin-top: 985px;
   margin-left: 530px;
-
   color: #edeef0;
 }
 .copy li {
   display: block;
 }
-.menu1 > li{
-  position: relative;
+.menu1 > li {
 
+  position: relative;
 
 }
 .submenu {
+  text-align: left;
+  float: left;
   position: absolute;
   display: none;
   z-index: 1;
@@ -159,5 +168,6 @@ h2 {
 }
 .menu1 > li:hover > .submenu {
   display: block;
+
 
 }
